@@ -1,5 +1,5 @@
 ripple = require('ripple-lib')
-api = new ripple.RippleAPI({ server: 'wss://s1.ripple.com' })
+api = new ripple.RippleAPI({ server: 'wss://s.altnet.rippletest.net:51233' })
 api.connect()
 
 const generated = api.generateAddress()
